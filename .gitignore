@@ -1,43 +1,31 @@
-# Windows image file caches
+# исключаем db.php
+/config/db.php
+
+# phpstorm файлы проекта
+.idea
+
+# netbeans файлы проекта
+nbproject
+
+# zend studio for eclipse файлы проекта
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# папка приложений, загруженных через Composer
+/vendor
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# сам Composer, если он в корне
+composer.phar
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# Mac DS_Store Files
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+# файл phpunit тестов
+phpunit.phar
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# local phpunit config
+/phpunit.xml
